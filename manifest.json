@@ -1,0 +1,20 @@
+{
+    "name": "Hotstar auto skip intro and enable subtitles by default",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Hotstar auto skip intro and enable subtitles by default",
+    "permissions": [
+        "https://www.hotstar.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.hotstar.com/*"
+            ],
+            "js": [
+                "inject.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
