@@ -1,5 +1,5 @@
 {
-    "name": "Hotstar auto skip intro and enable subtitles by default",
+    "name": "HotstarAutoSkipIntro",
     "version": "1.0.0",
     "manifest_version": 2,
     "description": "Hotstar auto skip intro and enable subtitles by default",
@@ -13,8 +13,7 @@
             ],
             "js": [
                 "inject.js"
-            ],
-            "run_at": "document_end"
+            ]
         }
     ]
 }
